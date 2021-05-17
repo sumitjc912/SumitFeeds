@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import SumitFeed
 
 public class URLSessionHTTPClient: HTTPClient {
     private let session: URLSession

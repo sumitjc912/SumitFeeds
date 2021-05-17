@@ -13,15 +13,23 @@
 		9173A132264E299E00D64A96 /* XCTestCaseMemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A131264E299E00D64A96 /* XCTestCaseMemoryLeakTracking.swift */; };
 		9173A134264E7FD000D64A96 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A133264E7FD000D64A96 /* URLSessionHTTPClient.swift */; };
 		9177C99E25E8D38100115DF4 /* SumitFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9177C99425E8D38100115DF4 /* SumitFeed.framework */; };
-		9177C9A525E8D38100115DF4 /* SumitFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 9177C99725E8D38100115DF4 /* SumitFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9177C9AF25E8D3B900115DF4 /* FeedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9177C9AE25E8D3B900115DF4 /* FeedItems.swift */; };
 		9177C9B125E8D46F00115DF4 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9177C9B025E8D46F00115DF4 /* FeedLoader.swift */; };
 		918F1E1D25ED0FCA00698C8A /* RemoteFeedLoaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918F1E1C25ED0FCA00698C8A /* RemoteFeedLoaderTest.swift */; };
 		91CC7EB825F895EE00DCB5FE /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7EB725F895EE00DCB5FE /* RemoteFeedLoader.swift */; };
+		91FED5952652871800F7A479 /* SumitFeedApiEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED5942652871800F7A479 /* SumitFeedApiEndToEndTests.swift */; };
+		91FED5972652871800F7A479 /* SumitFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9177C99425E8D38100115DF4 /* SumitFeed.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		9177C99F25E8D38100115DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9177C98B25E8D38100115DF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9177C99325E8D38100115DF4;
+			remoteInfo = SumitFeed;
+		};
+		91FED5982652871800F7A479 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9177C98B25E8D38100115DF4 /* Project object */;
 			proxyType = 1;
@@ -37,7 +45,6 @@
 		9173A131264E299E00D64A96 /* XCTestCaseMemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCaseMemoryLeakTracking.swift; sourceTree = "<group>"; };
 		9173A133264E7FD000D64A96 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		9177C99425E8D38100115DF4 /* SumitFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SumitFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9177C99725E8D38100115DF4 /* SumitFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumitFeed.h; sourceTree = "<group>"; };
 		9177C99825E8D38100115DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9177C99D25E8D38100115DF4 /* SumitFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumitFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9177C9A425E8D38100115DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +52,9 @@
 		9177C9B025E8D46F00115DF4 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		918F1E1C25ED0FCA00698C8A /* RemoteFeedLoaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTest.swift; sourceTree = "<group>"; };
 		91CC7EB725F895EE00DCB5FE /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		91FED5922652871800F7A479 /* SumitFeedApiEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumitFeedApiEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FED5942652871800F7A479 /* SumitFeedApiEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumitFeedApiEndToEndTests.swift; sourceTree = "<group>"; };
+		91FED5962652871800F7A479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9177C99E25E8D38100115DF4 /* SumitFeed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FED58F2652871800F7A479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FED5972652871800F7A479 /* SumitFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +118,7 @@
 				9138FEC02616B40D001C6E03 /* Feed Feature */,
 				91CC7EB625F895C100DCB5FE /* Feed API */,
 				9177C9A125E8D38100115DF4 /* SumitFeedTests */,
+				91FED5932652871800F7A479 /* SumitFeedApiEndToEndTests */,
 				9177C99525E8D38100115DF4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +128,7 @@
 			children = (
 				9177C99425E8D38100115DF4 /* SumitFeed.framework */,
 				9177C99D25E8D38100115DF4 /* SumitFeedTests.xctest */,
+				91FED5922652871800F7A479 /* SumitFeedApiEndToEndTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +136,6 @@
 		9177C99625E8D38100115DF4 /* SumitFeed */ = {
 			isa = PBXGroup;
 			children = (
-				9177C99725E8D38100115DF4 /* SumitFeed.h */,
 				9177C99825E8D38100115DF4 /* Info.plist */,
 			);
 			path = SumitFeed;
@@ -142,6 +161,15 @@
 			path = "Feed API";
 			sourceTree = "<group>";
 		};
+		91FED5932652871800F7A479 /* SumitFeedApiEndToEndTests */ = {
+			isa = PBXGroup;
+			children = (
+				91FED5942652871800F7A479 /* SumitFeedApiEndToEndTests.swift */,
+				91FED5962652871800F7A479 /* Info.plist */,
+			);
+			path = SumitFeedApiEndToEndTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -149,7 +177,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9177C9A525E8D38100115DF4 /* SumitFeed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +219,24 @@
 			productReference = 9177C99D25E8D38100115DF4 /* SumitFeedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		91FED5912652871800F7A479 /* SumitFeedApiEndToEndTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FED59C2652871800F7A479 /* Build configuration list for PBXNativeTarget "SumitFeedApiEndToEndTests" */;
+			buildPhases = (
+				91FED58E2652871800F7A479 /* Sources */,
+				91FED58F2652871800F7A479 /* Frameworks */,
+				91FED5902652871800F7A479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FED5992652871800F7A479 /* PBXTargetDependency */,
+			);
+			name = SumitFeedApiEndToEndTests;
+			productName = SumitFeedApiEndToEndTests;
+			productReference = 91FED5922652871800F7A479 /* SumitFeedApiEndToEndTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +252,9 @@
 						LastSwiftMigration = 1150;
 					};
 					9177C99C25E8D38100115DF4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					91FED5912652871800F7A479 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
@@ -226,6 +274,7 @@
 			targets = (
 				9177C99325E8D38100115DF4 /* SumitFeed */,
 				9177C99C25E8D38100115DF4 /* SumitFeedTests */,
+				91FED5912652871800F7A479 /* SumitFeedApiEndToEndTests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,6 +288,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9177C99B25E8D38100115DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FED5902652871800F7A479 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,6 +327,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91FED58E2652871800F7A479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FED5952652871800F7A479 /* SumitFeedApiEndToEndTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -278,6 +342,11 @@
 			isa = PBXTargetDependency;
 			target = 9177C99325E8D38100115DF4 /* SumitFeed */;
 			targetProxy = 9177C99F25E8D38100115DF4 /* PBXContainerItemProxy */;
+		};
+		91FED5992652871800F7A479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9177C99325E8D38100115DF4 /* SumitFeed */;
+			targetProxy = 91FED5982652871800F7A479 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -494,6 +563,44 @@
 			};
 			name = Release;
 		};
+		91FED59A2652871800F7A479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7RFMKV7AH8;
+				INFOPLIST_FILE = SumitFeedApiEndToEndTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sumit.SumitFeedApiEndToEndTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91FED59B2652871800F7A479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7RFMKV7AH8;
+				INFOPLIST_FILE = SumitFeedApiEndToEndTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sumit.SumitFeedApiEndToEndTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -520,6 +627,15 @@
 			buildConfigurations = (
 				9177C9AC25E8D38100115DF4 /* Debug */,
 				9177C9AD25E8D38100115DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FED59C2652871800F7A479 /* Build configuration list for PBXNativeTarget "SumitFeedApiEndToEndTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FED59A2652871800F7A479 /* Debug */,
+				91FED59B2652871800F7A479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
