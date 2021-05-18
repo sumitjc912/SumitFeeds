@@ -18,7 +18,7 @@
 		91CC7EB825F895EE00DCB5FE /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CC7EB725F895EE00DCB5FE /* RemoteFeedLoader.swift */; };
 		91FED5952652871800F7A479 /* SumitFeedApiEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED5942652871800F7A479 /* SumitFeedApiEndToEndTests.swift */; };
 		91FED5972652871800F7A479 /* SumitFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9177C99425E8D38100115DF4 /* SumitFeed.framework */; };
-		91FED5A02652A6E300F7A479 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173A133264E7FD000D64A96 /* URLSessionHTTPClient.swift */; };
+		91FED5A42652B65400F7A479 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED5A32652B65400F7A479 /* URLSessionHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		9138FEBD26159CBA001C6E03 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		9140E634264A2C46004FFD08 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		9173A131264E299E00D64A96 /* XCTestCaseMemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCaseMemoryLeakTracking.swift; sourceTree = "<group>"; };
-		9173A133264E7FD000D64A96 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		9177C99425E8D38100115DF4 /* SumitFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SumitFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9177C99825E8D38100115DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9177C99D25E8D38100115DF4 /* SumitFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumitFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +54,7 @@
 		91FED5922652871800F7A479 /* SumitFeedApiEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumitFeedApiEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FED5942652871800F7A479 /* SumitFeedApiEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumitFeedApiEndToEndTests.swift; sourceTree = "<group>"; };
 		91FED5962652871800F7A479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FED5A32652B65400F7A479 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,7 @@
 				91CC7EB725F895EE00DCB5FE /* RemoteFeedLoader.swift */,
 				9138FEB926159BEF001C6E03 /* HTTPClient.swift */,
 				9138FEBD26159CBA001C6E03 /* FeedItemsMapper.swift */,
-				9173A133264E7FD000D64A96 /* URLSessionHTTPClient.swift */,
+				91FED5A32652B65400F7A479 /* URLSessionHTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -313,6 +313,7 @@
 				91CC7EB825F895EE00DCB5FE /* RemoteFeedLoader.swift in Sources */,
 				9138FEBA26159BEF001C6E03 /* HTTPClient.swift in Sources */,
 				9177C9AF25E8D3B900115DF4 /* FeedItems.swift in Sources */,
+				91FED5A42652B65400F7A479 /* URLSessionHTTPClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91FED5A02652A6E300F7A479 /* URLSessionHTTPClient.swift in Sources */,
 				918F1E1D25ED0FCA00698C8A /* RemoteFeedLoaderTest.swift in Sources */,
 				9140E635264A2C46004FFD08 /* URLSessionHTTPClientTests.swift in Sources */,
 				9173A132264E299E00D64A96 /* XCTestCaseMemoryLeakTracking.swift in Sources */,
